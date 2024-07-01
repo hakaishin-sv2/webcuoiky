@@ -491,7 +491,7 @@ var questions = [
 
   {
       id: "question11",
-      img: "../img_cau_hoi/cau_11.png",
+      img: "img_cau_hoi/cau_11.png",
       inputType: "radio",
       question: "Đoạn mã javascript trên có ý nghĩa gì:",
       answers: [
@@ -505,7 +505,7 @@ var questions = [
 
   {
       id: "question12",
-      img: "../img_cau_hoi/cau_12.png",
+      img: "img_cau_hoi/cau_12.png",
       inputType: "radio",
       question: "Đoạn mã javascript trên có ý nghĩa gì:",
       answers: [
@@ -520,7 +520,7 @@ var questions = [
   {
       id: "question13",
       inputType: "radio",
-      img: "../img_cau_hoi/cau_13.png",
+      img: "img_cau_hoi/cau_13.png",
       question: "Kết quả sẽ là ",
       answers: [
           "A) 3 ", 
@@ -546,7 +546,7 @@ var questions = [
 
   {
       id: "question15",
-      img: "../img_cau_hoi/cau_15.png",
+      img: "img_cau_hoi/cau_15.png",
       inputType: "radio",
       question: "Đoạn mã trên có ý nghĩa:",
       answers: [
@@ -560,7 +560,7 @@ var questions = [
 
   {
       id: "question16",
-      img: "../img_cau_hoi/cau_16.png",
+      img: "img_cau_hoi/cau_16.png",
       inputType: "radio",
       question: "Đầu ra của đoạn mã Javascript sau đây là gì ?",
       answers: [
@@ -574,7 +574,7 @@ var questions = [
 
   {
       id: "question17",
-      img: "../img_cau_hoi/cau_17.png",
+      img: "img_cau_hoi/cau_17.png",
       inputType: "radio",
       question: "Đầu ra của đoạn mã Javascript sau đây là gì ?",
       answers: [
@@ -589,7 +589,7 @@ var questions = [
   {
       id: "question18",
       question: "Với tham số nambers = 8 thì kết quả là ?",
-      img: "../img_cau_hoi/cau_18.png",
+      img: "img_cau_hoi/cau_18.png",
       inputType: "radio",
       answers: [
           "A) 10 ", 
@@ -602,7 +602,7 @@ var questions = [
 
   {
       id: "question19",
-      img: "../img_cau_hoi/cau_19.png",
+      img: "img_cau_hoi/cau_19.png",
       question: "Với tham số nambers = 8 thì kết quả là ? (Điền vào chỗ trống)",
       inputType: "text",
       correctAnswer: "11"
@@ -611,7 +611,7 @@ var questions = [
   {
       id: "question20",
       inputType: "radio",
-      img: "../img_cau_hoi/cau_20.png",
+      img: "img_cau_hoi/cau_20.png",
       question: "Câu lấy ra giá trị text đã nhập trong username là ?",
       answers: [
           "A) var username= document.getElementById(“username”).value; ", 
@@ -624,7 +624,7 @@ var questions = [
 
   {
       id: "question21",
-      img: "../img_cau_hoi/cau_21.png",
+      img: "img_cau_hoi/cau_21.png",
       inputType: "radio",
       question: "Đoạn nào sau đây sẽ kiểu tra xem đáp án “Tất cả đáp án trên” có được tích chọn không ? ",
       answers: [
@@ -638,7 +638,7 @@ var questions = [
 
   {
       id: "question22",
-      img: "../img_cau_hoi/cau_22.png",
+      img: "img_cau_hoi/cau_22.png",
       inputType: "radio",
       question: "Cách thay đổi màu chữ thành màu đỏ củ thẻ p như trong hình ? ",
       answers: [
@@ -652,7 +652,7 @@ var questions = [
 
   {
       id: "question24",
-      img: "../img_cau_hoi/cau_24.png",
+      img: "img_cau_hoi/cau_24.png",
       inputType: "radio",
       question: "Câu nào sau đây lấy rac giá trị đã được chọn ? ",
       answers: [
@@ -666,7 +666,7 @@ var questions = [
 
   {
       id: "question25",
-      img: "../img_cau_hoi/cau_25.png",
+      img: "img_cau_hoi/cau_25.png",
       inputType: "radio",
       question: "Thuộc tính onclick để lắng nghe sự kiện khi click vào trong đó được truyền vào 1 hàm xử lý sự kiện đúng hay sai ? ",
       answers: [
@@ -678,7 +678,7 @@ var questions = [
 
   {
       id: "question26",
-      img: "../img_cau_hoi/cau_26.png",
+      img: "img_cau_hoi/cau_26.png",
       inputType: "radio",
       question: "Câu nào sau đây để thêm chữ vào khối div đó ở dòng 13 ? ",
       answers: [
@@ -692,7 +692,7 @@ var questions = [
 
   {
       id: "question27",
-      img: "../img_cau_hoi/cau_27.png",
+      img: "img_cau_hoi/cau_27.png",
       question: "Kết quả của index sẽ là ",
       inputType: "text",
       correctAnswer: "5"
@@ -700,7 +700,7 @@ var questions = [
      
   {
       id: "question28",
-      img: "../img_cau_hoi/cau_28.png",
+      img: "img_cau_hoi/cau_28.png",
       inputType: "radio",
       question: "Kết quả sẽ là ? ",
       answers: [
@@ -712,7 +712,7 @@ var questions = [
 
   {
       id: "question29",
-      img: "../img_cau_hoi/cau_29.png",
+      img: "img_cau_hoi/cau_29.png",
       inputType: "radio",
       question: "Câu nào sau đây để thêm chữ vào khối div đó ở dòng 13 ? ",
       answers: [
@@ -726,7 +726,7 @@ var questions = [
 
   {
       id: "question30",
-      img: "../img_cau_hoi/cau_30.png",
+      img: "img_cau_hoi/cau_30.png",
       inputType: "radio",
       question: "Kết quả sẽ là ? ",
       answers: [
@@ -740,7 +740,7 @@ var questions = [
 
   {
     id: "question31",
-    //img: "../img_cau_hoi/cau_30.png",
+    //img: "img_cau_hoi/cau_30.png",
     inputType: "checkbox",
     question: "con vịt có mấy cánh mấy chân",
     answers: [
@@ -754,7 +754,7 @@ var questions = [
 
 {
   id: "question32",
-  //img: "../img_cau_hoi/cau_30.png",
+  //img: "img_cau_hoi/cau_30.png",
   inputType: "checkbox",
   question: "chọn đáp án c với d ? ",
   answers: [
