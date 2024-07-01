@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu hỏi dạng nhập text</title>
+    <link rel="stylesheet" href="chung.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="all.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button  id="menu_az2" onclick="an_hien_block(cacmenu)"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <img src="img/logo.jpg" alt="">
+        <div class="mota">
+            <h2>Studyonline.com</h2>
+            <h3>Trang luyện tập trắc nghiệm </h3>
+            <h3 id="abc">HTML CSS JavaScipt </h3>
+        </div>
+                   
+        
+
+        <div class="thong_tin_tk" style="background-color: #75C2F6; margin-left: 45%; box-shadow: none;">
+            <div id="ten_day_du" style="margin-top: 5px; margin-bottom: 2%; margin-left: 10%;"></div>
+            <img src="./img/R.png" alt="" style="margin-left: 20%;">
+        </div>
+    </div>
+    <hr>
+    <div class="div_body_add_question">
+        <div class="cacmenu" style="display: none;">
+            <ul class="menu_add_ch">
+                <li><i class="fa fa-home" aria-hidden="true" style="margin-right: 10px;"></i> <a href="index.html">Trang chủ</a></li><hr>
+                <li><i class="fa fa-pencil-square-o" aria-hidden="true" style="margin-right: 10px"></i> <a href="add_question.html">Góp câu hỏi</a></li><hr>
+                <li><i class="fa fa-user-o" aria-hidden="true"></i><a href="" style="margin-right: 10px;"></a><a href="login.html">Đăng nhập</a></li><hr>
+                <li><i class="fa fa-user-plus" aria-hidden="true" style="margin-right: 10px"></i><a href="dangky.html">Đăng ký</a></li><hr>
+                <li><i class="fa fa-sign-in" aria-hidden="true" style="margin-right: 10px"></i><a href="login.html" id=""  onclick="xoa_local_diem();xoa_local_inf();">Log out</a></li><hr>
+            </ul>
+        </div>
+        
+
+        <div class="add_cquestion">
+           <form action="" id="form_add_cauhoi">
+                <h3>Nhập câu hỏi </h3>
+                <input type="text" name="" id="name_question_text" style="margin-top: 5px; text-indent: 10px; font-size: 16px;">
+                <h3>Đáp án của bạn </h3>
+                <input type="text" name="" id="answer_text"  style="margin-top: 5px;text-indent: 10px;font-size: 16px;"  oninput="create_add_cauhoi()">
+
+           </form>
+            <button class="button_x" onclick="them_cauhoi_text_vao();hien_bang_them_cauhoi()" >Thêm vào</button><br>
+            <button class="button_x" onclick="resetForm()" style="margin-top: 1px;">Hủy thêm</button>
+
+            <h3 style="color: brown;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 38%;margin-top: 3%;">Danh sách câu hỏi người dùng thêm</h3>
+            <div id="table_question_add">
+
+            </div>
+
+            <div id="fix_seen_chitiet" style="display: none;">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="ft_content">
+            <h2>Về website chúng tôi</h2>
+            <p>Hoạt động 24/7</p>
+            <p>Chăm sóc khách hàng 24/24</p>
+            <p style="font-weight: bold;">Điều khoản && Quy định</p>
+            <p style="font-weight: bold;">Design By: Nhóm #36</p>
+        </div>
+        <p>© Software by Nhóm 36.,
+        Copyright 2023 © NROWIN.COM | All rights reserved</p>
+    </div>
+
+    <div class="dung_im">
+        <div id="o_chat">
+            <div id="close" onclick="sen_log()"><i class="fa fa-times" aria-hidden="true"></i></div>
+            <div id="khungchat">
+                
+            </div>
+            <div id="input">
+                <input type="text" autofocus id="messageInput" placeholder="Type your message..." />
+                <button id="sendButton" style="padding: 5px 10px;
+                margin-left: 5px;
+                cursor: pointer;"><i class="fa fa-paper-plane" aria-hidden="true" style="padding: 2px 6px;"></i></button>
+            </div>
+      </div>
+        <button id="myButton" onclick="sen_log()" >Hỗ trợ sự cố</button>
+
+    </div>
+    <script src="script.js"></script>
+    <script>
+    </script>
+    
+</body>
+</html>
